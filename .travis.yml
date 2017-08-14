@@ -4,5 +4,5 @@ python:
 services:
   - mysql
 before_install:
-  - mysql -e 'CREATE DATABASE IF NOT EXISTS monica_py'
+  - mysql < init_db.sql
 script: pytest
