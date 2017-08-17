@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS monica_python;
-USE monica_python;
+CREATE DATABASE IF NOT EXISTS test;
+USE test;
 CREATE TABLE IF NOT EXISTS test (
     id int NOT NULL AUTO_INCREMENT,
     name VARCHAR(20),
