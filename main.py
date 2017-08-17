@@ -6,7 +6,7 @@ def main():
 
 def read_db():
     import pymysql
-    db = pymysql.connect(host='localhost', user='travis', passwd='', db='test')
+    db = pymysql.connect(host='localhost', user='root', passwd='', db='test')
     cur = db.cursor()
 
     cur.execute('SELECT name FROM test')
